@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+#line1{
+    width:500px;
+    margin-bottom: 50px;
+}
+.c{
+    float: left;
+    margin: 10px;
+}
+#div2{
+    margin-left: 100px;
+    width: 41%;
+    height: 500px;
+    background-color: darkslateblue;
+}
+#div3{
+    margin-right: 100px;
+    width: 41%;
+    height: 500px;
+    background-color: darkred;
+}
+h2{
+    text-align: center;
+}
+video{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
