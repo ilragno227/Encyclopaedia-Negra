@@ -13,16 +13,19 @@ h1{
 .c{
     float: left;
     margin: 10px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 #div2{
     margin-left: 100px;
-    width: 41%;
+    width: 40%;
     height: 500px;
     background-color: darkslateblue;
 }
 #div3{
     margin-right: 100px;
-    width: 41%;
+    width: 40%;
     height: 500px;
     background-color: darkred;
 }
