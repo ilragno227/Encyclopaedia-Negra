@@ -33,4 +33,28 @@ video{
     display: block;
     margin: auto;
     border-radius: 0.625em;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 1.875em;
+    }
+    #line1{
+        width: 90%;
+        margin: 0 auto 1.5em auto;
+    }
+    #d{
+        flex-direction: column;
+        gap: 1em;
+        width: 90%;
+    }
+    #div2, #div3{
+        width: 100%;
+        height: 15em;
+    }
+    video{
+        max-width: 90%;
+    }
 }
